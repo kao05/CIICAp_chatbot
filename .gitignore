@@ -4,5 +4,6 @@ CIICApVenv/
 __pycache__/
 *.pyc
 .vscode/ 
-Personal/
+
+
 
