@@ -1,4 +1,5 @@
-# Proyecto Chatbot CIICAp — LLM + RAG 🤖
+# Proyecto Chatbot CIICAp — LLM + RAG 
+
 Asistente virtual para la página institucional del CIICAp, diseñado para facilitar la búsqueda de información a estudiantes y visitantes mediante inteligencia artificial.
 
 ## Stack de Tecnologías 
