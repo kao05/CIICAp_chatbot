@@ -1,10 +1,18 @@
-transformers>=4.50.0
+# --- Modelo (llm.py) ---
 torch
+transformers>=4.50.0
 accelerate
 Pillow
 huggingface_hub
 python-dotenv
+
+# --- API y pantalla de prueba ---
 fastapi
 uvicorn
 streamlit
 requests
+
+# --- Datos (ORM y PDFs) ---
+SQLAlchemy
+PyMuPDF
+tqdm

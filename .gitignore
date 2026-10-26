@@ -3,7 +3,7 @@ venv/
 CIICApVenv/
 __pycache__/
 *.pyc
-.vscode/ 
+.vscode/  
 
 
 
