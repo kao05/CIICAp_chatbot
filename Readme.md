@@ -3,13 +3,12 @@
 Asistente virtual para la página institucional del CIICAp, diseñado para facilitar la búsqueda de información a estudiantes y visitantes mediante inteligencia artificial.
 
 ## Stack de Tecnologías 
-- Postgresql 
 - Docker
 - Fast API LTS 
 - REST
 - Python 3.11
 ### ¿Por qué Python 3.11?
-Compatibilidad total con todas las librerías: transformers, torch, fastapi, redis, psycopg2, bitsandbytes y accelerate tienen soporte completamente estable en 3.11.
+Compatibilidad total con todas las librerías: transformers, torch, fastapi, redis, bitsandbytes y accelerate tienen soporte completamente estable en 3.11.
 Rendimiento es hasta un 25% más rápido que 3.10 en operaciones generales, y tiene mejor soporte de PyTorch en Windows.
 Google Colab actualmente corre Python 3.11 como versión por defecto, lo que significa que si desarrollas en 3.11 local, el código correrá igual en Colab sin problemas.
 
@@ -52,7 +51,6 @@ chatbot-institucional/
 │
 ├── data/                         # Recursos locales de datos
 │   ├── sql/
-│   │   └── init_pgvector.sql     # Script DDL para tablas y extensiones de PostgreSQL
 │   └── prompts/                  # Plantillas de prompts del sistema
 │
 ├── src/                          # Código fuente del paquete principal
@@ -88,7 +86,7 @@ chatbot-institucional/
 │   ├── test_retrieval.py
 │   └── test_engine.py
 │
-├── .env.example                  # Plantilla de credenciales (PostgreSQL, Redis, API Keys)
+├── .env.example                  # Plantilla de credenciales (Redis, API Keys)
 ├── .gitignore                    # Exclusión de __pycache__, .env, pesos pesados, etc.
 ├── pyproject.toml                # Definición formal del paquete Python y dependencias
 ├── README.md                     # Manual de instalación y uso rápido para el desarrollador Django

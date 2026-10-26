@@ -1,1 +1,0 @@
-#Inserción/Búsqueda en PostgreSQL
