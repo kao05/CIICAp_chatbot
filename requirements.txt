@@ -1,0 +1,10 @@
+transformers>=4.50.0
+torch
+accelerate
+Pillow
+huggingface_hub
+python-dotenv
+fastapi
+uvicorn
+streamlit
+requests
